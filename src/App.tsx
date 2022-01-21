@@ -1,9 +1,12 @@
-import React from "react";
+import SignIn from "./components/SignIn";
+import UserProvider from "./context/UserProvider";
 
 function App() {
 	return (
-		<div className="App">
-			<div className="text-black text-xl font-bold">YouTube++</div>
+		<div className="text-black">
+			<UserProvider>
+				<SignIn />
+			</UserProvider>
 		</div>
 	);
 }
