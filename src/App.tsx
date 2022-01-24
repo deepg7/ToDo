@@ -9,7 +9,7 @@ function App() {
     <BrowserRouter>
       <Switch>
         <>
-          <Header />
+          {/*<Header />*/}
           <div className="flex">
             <Sidebar />
             <div className="flex-1">

@@ -1,4 +1,5 @@
 import { Route } from "react-router";
+import Profile from "./Profile";
 import Task from "./Task";
 
 const View = () => {
@@ -6,6 +7,9 @@ const View = () => {
     <>
       <Route exact path="/tasks">
         <Task />
+      </Route>
+      <Route exact path="/profile">
+        <Profile />
       </Route>
     </>
   );
